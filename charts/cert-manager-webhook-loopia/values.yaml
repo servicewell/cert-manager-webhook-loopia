@@ -13,8 +13,8 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: identitry/cert-manager-webhook-loopia
-  tag: 1.1
+  repository: wofregistry.azurecr.io/img/certmanagerwebhookloopia
+  tag: 1.1.1
   pullPolicy: IfNotPresent
 
 nameOverride: ""
