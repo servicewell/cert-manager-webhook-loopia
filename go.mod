@@ -11,3 +11,5 @@ require (
 	k8s.io/client-go v0.19.0
 	k8s.io/klog/v2 v2.8.0
 )
+
+replace github.com/jonlil/loopia-go => ./localdeps/loopia-go

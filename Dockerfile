@@ -6,6 +6,7 @@ WORKDIR /workspace
 
 COPY go.mod .
 COPY go.sum .
+COPY localdeps/loopia-go ./localdeps/loopia-go
 
 RUN go mod download
 
